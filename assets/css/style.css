@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  color: #D9863A;
+}
+a:hover{
+  color: #E0574D; 
+}
+
+a.reverse{
+  color: #fff;
+}
+a.reverse:hover{
+  color: #eee;
+}
+
+.slogan{
+  background-color: #9706DF;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* NAV */
+#nav{
+  height: 100px;
+  background-image: linear-gradient(to right, #D9863A , #E0574D);
+}
+#nav #ul{
+  line-height: 50px;
+}
+#nav #ul>li{
+  float: right;
+  margin-right: 50px;
+  font-weight: bold;
+  height: 100px;
+}
+#nav ul li>.sub-ul{
+  display: none;
+}
+#nav ul li:hover>.sub-ul{
+  display: block;
+  position: absolute;
+  top: 120px;
+  width: 200px;
+  background-color: #E0574D;
+  padding: 20px;
+}
+
+/* POSTER */
+#poster{
+  background-color: #545454;
+  height: 300px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 300px;
+  text-align: center;
+}
+
+/* PLANS */
+#plans-section{
+  background-color: #D3D3D3;
+  padding: 30px;
+}
+#plans{
+  text-align: center;
+  margin: 0 auto;
+  width: 1020px;
+}
+
+#plans .plan{
+  border: #E0574D 1px solid;
+  padding: 80px;
+  margin:  0 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* FOOTER */
+#footer{
+  background-color: #8F3E3A;
+  height: 150px;
+  padding: 30px;
+}
+#left-footer{
+  float: left;
+}
+#right-footer{
+  float: right;
+  
+}
+.footer-section{
+  width: 50%;
+  text-align: center;
+}

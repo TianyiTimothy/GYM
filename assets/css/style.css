@@ -33,28 +33,36 @@ a.reverse:hover{
 
 /* NAV */
 #nav{
-  height: 100px;
+  height: 80px;
   background-image: linear-gradient(to right, #D9863A , #E0574D);
+  padding-left: 30px;
+}
+#nav #logo{
+  width: 80px;
+  display: inline-block;
+  
 }
 #nav #ul{
-  line-height: 50px;
+  float: right;
 }
 #nav #ul>li{
   float: right;
   margin-right: 50px;
   font-weight: bold;
+  line-height: 80px;
   height: 100px;
 }
 #nav ul li>.sub-ul{
   display: none;
-}
-#nav ul li:hover>.sub-ul{
-  display: block;
+  line-height: 40px;
   position: absolute;
-  top: 120px;
+  top: 100px;
   width: 200px;
   background-color: #E0574D;
   padding: 20px;
+}
+#nav ul li:hover>.sub-ul{
+  display: block;
 }
 
 /* POSTER */

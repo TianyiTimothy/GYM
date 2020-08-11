@@ -1,0 +1,19 @@
+.flexbox .flexbox__item {
+  transition: none;
+  width: 40%;
+  text-align: center;
+}
+
+.flexbox .flexbox__item:hover {
+  background-color: transparent;
+  cursor: auto;
+}
+
+.flexbox .flexbox__item .flexbox__item_img {
+  background-size: cover;
+  height: 700px;
+}
+.notice{
+  height: 500px;
+  background-size: cover;
+}

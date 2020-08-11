@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box; 
+}
+form{
+  padding: 0 250px;
+}
+form input{
+  padding: 15px;
+  width: 100%;
+}
+form input.half{
+  width: 50%;
+  float: left;
+}
+form input.righthalf{
+  width: 50%;
+  float: right;
+}
+form #submit{
+  width: 20%;
+}

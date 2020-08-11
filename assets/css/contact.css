@@ -19,3 +19,6 @@ form input.righthalf{
 form #submit{
   width: 20%;
 }
+form .checkbox{
+  width: auto;
+}

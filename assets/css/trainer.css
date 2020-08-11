@@ -31,3 +31,8 @@ main{
   background-color: transparent;
   cursor: auto;
 }
+
+.flexbox .flexbox__item b {
+  color: #D9863A;
+  font-size: 1.5em;
+}

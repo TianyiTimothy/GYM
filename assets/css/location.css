@@ -1,0 +1,15 @@
+#search{
+  background-color: black;
+  padding: 100px;
+  text-align: center;
+}
+
+#search #search__label_input{
+  width: 400px;
+  padding: 10px;
+}
+#search #search__label_button{
+  padding: 12px;
+  background-color: brown;
+  border:none;
+}

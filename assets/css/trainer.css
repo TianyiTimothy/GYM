@@ -1,0 +1,33 @@
+#trainer{
+  width: 500px;
+  border: 5px solid black;
+  float: left;
+}
+#trainer #trainer__img{
+  width: 500px;
+  height: 500px;
+  background-image: url("../trainer.png");
+  background-size: cover;
+}
+main{
+  background-color: #D3D3D3;
+}
+#flex{
+  clear: both;
+}
+#strong{
+  padding: 50px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.flexbox .flexbox__item {
+  transition: none;
+  width: 25%;
+  text-align: center;
+}
+
+.flexbox .flexbox__item:hover {
+  background-color: transparent;
+  cursor: auto;
+}
